@@ -9,6 +9,13 @@ To facilitate the research of vehicle re-identification (Re-Id), we build a larg
 # 2. Download
 In order to guarantee the quality, the dataset is under revision. To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (xinchenliu at bupt dot edu dot cn). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere.
 
+Former version of the VeRi dataset has some errors in the train_label.xml file:
+Vehicle 3, 7, and 41 in the training set are labeled as typeID="0" which does not correspond to a legal type in list_type.txt.
+
+Vehicle 0003 is an Audi Q3, and typeID="2" (SUV).
+Vehicle 0007 is a Nissan SUV, and typeID="2" (SUV).
+Vehicle 0041 is a Hummer H2, so typeID="2" (SUV).
+
 # 3. Citation
 If you use the dataset, please kindly cite the following paper:
 * 1. Liu X., Liu W., Ma H., Fu H.: Large-scale vehicle re-identification in urban surveillance videos. In: IEEE International Conference on Multimedia and Expo. (2016) accepted.
