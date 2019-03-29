@@ -12,13 +12,15 @@ Former version of the VeRi dataset has some errors in the train_label.xml file:
 Vehicle 3, 7, and 41 in the training set are labeled as typeID="0" which does not correspond to a legal type in list_type.txt.
 
 Vehicle 0003 is an Audi Q3, and typeID="2" (SUV).
+
 Vehicle 0007 is a Nissan SUV, and typeID="2" (SUV).
+
 Vehicle 0041 is a Hummer H2, so typeID="2" (SUV).
 
 # 3. Citation
 If you use the dataset, please kindly cite the following paper:
-* 1. Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. ECCV (2) 2016: 869-884
-* 2. Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance. IEEE Trans. Multimedia 20(3): 645-658 (2018)
+* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. ECCV (2) 2016: 869-884
+* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance. IEEE Trans. Multimedia 20(3): 645-658 (2018)
 
 # 4. Example codes
 Here we give an example code for vehicle search evaluation.
