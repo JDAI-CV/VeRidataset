@@ -1,4 +1,3 @@
-Welcome to the veridataset wiki!
 # 1. VeRi dataset
 To facilitate the research of vehicle re-identification (Re-Id), we build a large-scale benchmark dateset for vehicle Re-Id in the real-world urban surveillance scenario, named "VeRi". The featured properties of VeRi include:
 * It contains over 50,000 images of 776 vehicles captured by 20 cameras covering an 1.0 km^2 area in 24 hours, which makes the dataset scalable enough for vehicle Re-Id and other related research. 
@@ -7,7 +6,7 @@ To facilitate the research of vehicle re-identification (Re-Id), we build a larg
 * It is also labeled with sufficient license plates and spatiotemporal information, such as the BBoxes of plates, plate strings, the timestamps of vehicles, and the distances between neighbouring cameras.
 
 # 2. Download
-In order to guarantee the quality, the dataset is under revision. To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (xinchenliu at bupt dot edu dot cn). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere.
+In order to guarantee the quality, the dataset is under revision. To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (*xinchenliu at bupt dot edu dot cn*). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere.
 
 Former version of the VeRi dataset has some errors in the train_label.xml file:
 Vehicle 3, 7, and 41 in the training set are labeled as typeID="0" which does not correspond to a legal type in list_type.txt.
@@ -18,8 +17,8 @@ Vehicle 0041 is a Hummer H2, so typeID="2" (SUV).
 
 # 3. Citation
 If you use the dataset, please kindly cite the following paper:
-* 1. Liu X., Liu W., Ma H., Fu H.: Large-scale vehicle re-identification in urban surveillance videos. In: IEEE International Conference on Multimedia and Expo. (2016) accepted.
-* 2. Liu X., Liu W., Mei T., Ma H. A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. In: European Conference on Computer Vision. Springer International Publishing, 2016: 869-884.
+* 1. Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. ECCV (2) 2016: 869-884
+* 2. Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance. IEEE Trans. Multimedia 20(3): 645-658 (2018)
 
 # 4. Example codes
 Here we give an example code for vehicle search evaluation.
