@@ -30,7 +30,7 @@ Then we read the ground truth and junk image index (the test images that have th
 After that, for each query, we rank the distance to each test image and compute the Average Presicion using the compute_AP function.
 At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
 
-The model and distance files can be downloaded from [BaiduPan].
+The model and distance files can be downloaded from [BaiduPan](https://pan.baidu.com/s/1gYBNQI0_MZLB0ANW8qnYGw) [GoogleDrive](https://drive.google.com/open?id=0B0o1ZxGs_oVZWmtFdXpqTGl3WUU).
 
 # 5. State-of-the-art Results on the VeRi Dataset
 
