@@ -30,6 +30,8 @@ Then we read the ground truth and junk image index (the test images that have th
 After that, for each query, we rank the distance to each test image and compute the Average Presicion using the compute_AP function.
 At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
 
+The model and distance files can be downloaded from [BaiduPan].
+
 # 5. State-of-the-art Results on the VeRi Dataset
 
 |Reference|Year|        Rank-1|        Rank-5|           mAP|
@@ -60,26 +62,26 @@ At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
 
 
 ## Reference
-1. Liu, Xinchen, et al. "Large-scale vehicle re-identification in urban surveillance videos." ICME 2016.
-2. Liu, Xinchen, et al. "A deep learning-based approach to progressive vehicle re-identification for urban surveillance." ECCV 2016.
-3. Liu, Wu, et al. "Beyond human-level license plate super-resolution with progressive vehicle search and domain priori GAN." ACMMM 2017.
-4. Shen, Yantao, et al. "Learning deep neural networks for vehicle re-id with visual-spatio-temporal path proposals." ICCV 2017.
-5. Zhang, Yiheng, Dong Liu, and Zheng-Jun Zha. "Improving triplet-wise training of convolutional neural network for vehicle re-identification." ICME 2017.
-6. Wang, Zhongdao, et al. "Orientation invariant feature embedding and spatial temporal regularization for vehicle re-identification." ICCV 2017.
-7. Tang, Yi, et al. "Multi-modal metric learning for vehicle re-identification in traffic surveillance environment." ICIP 2017.
-8. Liu, Xinchen, et al. "PROVID: Progressive and multimodal vehicle reidentification for large-scale urban surveillance." IEEE TMM 20.3 (2018): 645-658.
-9. Bai, Yan, et al. "Group-Sensitive Triplet Embedding for Vehicle Reidentification." IEEE TMM 20.9 (2018): 2385-2399.
-10. Liu, Xiaobin, et al. "Ram: a region-aware deep model for vehicle re-identification." ICME 2018.
-11. Zhu, Jianqing, et al. "Joint feature and similarity deep learning for vehicle re-identification." IEEE Access 6 (2018): 43724-43731.
-12. Zhou, Yi, and Ling Shao. "Aware attentive multi-view inference for vehicle re-identification." CVPR 2018.
-13. Zhu, Jianqing, et al. "A shortly and densely connected convolutional neural network for vehicle re-identification." ICPR 2018.
-14. Jiang, Na, et al. "Multi-Attribute Driven Vehicle Re-Identification with Spatial-Temporal Re-Ranking." ICIP 2018.
-15. Wu, Chih-Wei, et al. "Vehicle re-identification with the space-time prior." CVPRW 2018.
-16. Kanaci, Aytac, Xiatian Zhu, and Shaogang Gong. "Vehicle Re-Identification in Context." arXiv preprint arXiv:1809.09409(2018).
-17. Wu, Fangyu, et al. "Joint Semi-supervised Learning and Re-ranking for Vehicle Re-identification." ICPR 2018.
-18. Zhou, Yi, Li Liu, and Ling Shao. "Vehicle re-identification by deep hidden multi-view inference." IEEE TIP 27.7 (2018): 3275-3287.
-19. Zhou, Yi, and Ling Shao. "Vehicle Re-Identification by Adversarial Bi-Directional LSTM Network." WACV 2018.
-20. Liu, Xinchen, et al. "PVSS: A Progressive Vehicle Search System for Video Surveillance Networks." arXiv preprint arXiv:1901.03062 (2019).
-21. Lou, Yihang, et al. "Embedding Adversarial Learning for Vehicle Re-Identification." IEEE TIP (2019).
-22. Kumar, Ratnesh, et al. "Vehicle Re-Identification: an Efficient Baseline Using Triplet Embedding." arXiv preprint arXiv:1901.01015 (2019).
-23. Zhu, Jianqing, et al. "Vehicle Re-Identification Using Quadruple Directional Deep Learning Features." IEEE TITS (2019).
+[1] Liu, Xinchen, et al. "Large-scale vehicle re-identification in urban surveillance videos." ICME 2016.
+[2] Liu, Xinchen, et al. "A deep learning-based approach to progressive vehicle re-identification for urban surveillance." ECCV 2016.
+[3] Liu, Wu, et al. "Beyond human-level license plate super-resolution with progressive vehicle search and domain priori GAN." ACMMM 2017.
+[4] Shen, Yantao, et al. "Learning deep neural networks for vehicle re-id with visual-spatio-temporal path proposals." ICCV 2017.
+[5] Zhang, Yiheng, Dong Liu, and Zheng-Jun Zha. "Improving triplet-wise training of convolutional neural network for vehicle re-identification." ICME 2017.
+[6] Wang, Zhongdao, et al. "Orientation invariant feature embedding and spatial temporal regularization for vehicle re-identification." ICCV 2017.
+[7] Tang, Yi, et al. "Multi-modal metric learning for vehicle re-identification in traffic surveillance environment." ICIP 2017.
+[8] Liu, Xinchen, et al. "PROVID: Progressive and multimodal vehicle reidentification for large-scale urban surveillance." IEEE TMM 20.3 (2018): 645-658.
+[9] Bai, Yan, et al. "Group-Sensitive Triplet Embedding for Vehicle Reidentification." IEEE TMM 20.9 (2018): 2385-2399.
+[10] Liu, Xiaobin, et al. "Ram: a region-aware deep model for vehicle re-identification." ICME 2018.
+[11] Zhu, Jianqing, et al. "Joint feature and similarity deep learning for vehicle re-identification." IEEE Access 6 (2018): 43724-43731.
+[12] Zhou, Yi, and Ling Shao. "Aware attentive multi-view inference for vehicle re-identification." CVPR 2018.
+[13] Zhu, Jianqing, et al. "A shortly and densely connected convolutional neural network for vehicle re-identification." ICPR 2018.
+[14] Jiang, Na, et al. "Multi-Attribute Driven Vehicle Re-Identification with Spatial-Temporal Re-Ranking." ICIP 2018.
+[15] Wu, Chih-Wei, et al. "Vehicle re-identification with the space-time prior." CVPRW 2018.
+[16] Kanaci, Aytac, Xiatian Zhu, and Shaogang Gong. "Vehicle Re-Identification in Context." arXiv preprint arXiv:1809.09409(2018).
+[17] Wu, Fangyu, et al. "Joint Semi-supervised Learning and Re-ranking for Vehicle Re-identification." ICPR 2018.
+[18] Zhou, Yi, Li Liu, and Ling Shao. "Vehicle re-identification by deep hidden multi-view inference." IEEE TIP 27.7 (2018): 3275-3287.
+[19] Zhou, Yi, and Ling Shao. "Vehicle Re-Identification by Adversarial Bi-Directional LSTM Network." WACV 2018.
+[20] Liu, Xinchen, et al. "PVSS: A Progressive Vehicle Search System for Video Surveillance Networks." arXiv preprint arXiv:1901.03062 (2019).
+[21] Lou, Yihang, et al. "Embedding Adversarial Learning for Vehicle Re-Identification." IEEE TIP (2019).
+[22] Kumar, Ratnesh, et al. "Vehicle Re-Identification: an Efficient Baseline Using Triplet Embedding." arXiv preprint arXiv:1901.01015 (2019).
+[23] Zhu, Jianqing, et al. "Vehicle Re-Identification Using Quadruple Directional Deep Learning Features." IEEE TITS (2019).
