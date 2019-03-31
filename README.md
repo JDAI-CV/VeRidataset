@@ -29,8 +29,8 @@ At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
 
 # 5. State-of-the-art Results on the VeRi Dataset
 
-|Reference|    Rank-1|    Rank-5|       mAP|
-|:-------:|---------:|---------:|---------:|
+|Reference|        Rank-1|        Rank-5|           mAP|
+|:-------:|-------------:|-------------:|-------------:|
 |1|  1.00|  1.00|  1.00|
 |2 |  1.00|  1.00|  1.00|
 |3 |  1.00|  1.00|  1.00|
