@@ -1,4 +1,6 @@
-# 1. VeRi dataset ([**THE NEW WEBPAGE**](http://vehiclereid.github.io/VeRidataset/))
+# 1. VeRi dataset
+(Please click [**here**](http://vehiclereid.github.io/VeRidataset/) to the new webpage.)
+
 To facilitate the research of vehicle re-identification (Re-Id), we build a large-scale benchmark dateset for vehicle Re-Id in the real-world urban surveillance scenario, named "VeRi". The featured properties of VeRi include:
 * It contains over 50,000 images of 776 vehicles captured by 20 cameras covering an 1.0 km^2 area in 24 hours, which makes the dataset scalable enough for vehicle Re-Id and other related research. 
 * The images are captured in a real-world unconstrained surveillance scene and labeled with varied attributes, e.g. BBoxes, types, colors, and brands. So complicated models can be learnt and evaluated for vehicle Re-Id.
