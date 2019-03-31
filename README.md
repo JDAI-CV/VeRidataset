@@ -34,7 +34,6 @@ At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
 
 |Reference|Year|        Rank-1|        Rank-5|           mAP|
 |:-------:|:--:|-------------:|-------------:|-------------:|
-|time|map|rank1|rank5|
 |1|2016|19.92|59.65|75.27|
 |2|2016|27.77|61.44|78.78|
 |3|2017|58.27|83.49|90.04|
