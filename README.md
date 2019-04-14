@@ -37,7 +37,7 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 
 # 5. State-of-the-art Results on the VeRi Dataset
 
-|Reference|Year|        Rank-1|        Rank-5|           mAP|
+|Reference|Year|           mAP|        Rank-1|        Rank-5|
 |:-------:|:--:|-------------:|-------------:|-------------:|
 |[1]|2016|19.92|59.65|75.27|
 |[2]|2016|27.77|61.44|78.78|
