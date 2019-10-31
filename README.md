@@ -47,7 +47,7 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[6]|2017|33.78|60.19|77.4|
 |[7]|2017|60.47|85.52|95.11|
 |[8]|2018|53.42|81.56|95.11|
-|[9]|2018|59.47|**96.24**|**98.97**|
+|[9]|2018|59.47|96.24|98.97|
 |[10]|2018|61.5|88.6|94|
 |[11]|2018|53.53|82.9|91.6|
 |[12]|2018|61.32|85.92|91.84|
@@ -60,8 +60,15 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[19]|2018|60.49|77.33|88.27|
 |[20]|2019|62.62|90.58|97.14|
 |[21]|2019|57.44|84.39|94.05|
-|[22]|2019|**67.55**|90.23|96.42|
+|[22]|2019|67.55|90.23|96.42|
 |[23]|2019|61.83|88.5|94.46|
+|[24]|2019|67.6|90.2|-|
+|[25]|2019|55.49|84.27|92.43|
+|[26]|2019|74.3|94.3|98.7|
+|[27]|2019|72.5|93.3|97.1|
+|[28]|2019|71.88|92.86|96.97|
+|[29]|2019|66.34|89.78|95.99|
+|[30]|2019|66.35|90.17|94.34|
 
 
 ## Reference
@@ -111,3 +118,16 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 
 [23] Zhu, Jianqing, et al. "Vehicle Re-Identification Using Quadruple Directional Deep Learning Features." IEEE TITS (2019).
 
+[24] Tang, Zheng, et al. "CityFlow: A City-Scale Benchmark for Multi-Target Multi-Camera Vehicle Tracking and Re-Identification." CVPR (2019).
+
+[25] Lou, Yihang, et al. "VERI-Wild: A Large Dataset and a New Method for Vehicle Re-Identification in the Wild." IEEE CVPR (2019).
+
+[26] He, Bing, et al. "Part-regularized Near-duplicate Vehicle Re-identification." IEEE CVPR (2019).
+
+[27] Qian, Jingjing, et al. "Stripe-based and Attribute-aware Network: A Two-Branch Deep Model for Vehicle Re-identification." arXiv (2019).
+
+[28] Tang, Zheng, et al. "PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification Using Highly Randomized Synthetic Data." IEEE ICCV (2019).
+
+[29] Chu, Ruihang, et al. "Vehicle Re-identification with Viewpoint-aware Metric Learning." IEEE ICCV (2019).
+
+[30] Pirazh Khorramshahi et al. "A Dual-Path Model With Adaptive Attention For Vehicle Re-Identification." IEEE ICCV (2019).
