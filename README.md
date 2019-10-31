@@ -69,7 +69,7 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[28]|2019|71.88|92.86|96.97|
 |[29]|2019|66.34|89.78|95.99|
 |[30]|2019|66.35|90.17|94.34|
-|Ours|2019|77.20%|96.10%|97.90%|
+|Ours|2019|77.2|96.1|97.9|
 
 
 ## Reference
