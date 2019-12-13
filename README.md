@@ -71,6 +71,10 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[30]|2019|66.35|90.17|94.34|
 |Ours|2019|77.2|96.1|97.9|
 
+# 6. Our Results on Six Datasets
+![Image](./images/mAP_on6.jpg)
+![Image](./images/Rank1_on6.jpg)
+
 
 ## Reference
 [1] Liu, Xinchen, et al. "Large-scale vehicle re-identification in urban surveillance videos." ICME 2016.
