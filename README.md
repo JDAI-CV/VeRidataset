@@ -69,6 +69,7 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[28]|2019|71.88|92.86|96.97|
 |[29]|2019|66.34|89.78|95.99|
 |[30]|2019|66.35|90.17|94.34|
+|[31]|2020|83.41|96.78|-|
 |Ours|2019|77.2|96.1|97.9|
 
 # 6. Our Results on Six Datasets
@@ -136,3 +137,6 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 [29] Chu, Ruihang, et al. "Vehicle Re-identification with Viewpoint-aware Metric Learning." IEEE ICCV (2019).
 
 [30] Pirazh Khorramshahi et al. "A Dual-Path Model With Adaptive Attention For Vehicle Re-Identification." IEEE ICCV (2019).
+
+[31] Zhedong Zheng, Tao Ruan, Yunchao Wei, Yi Yang, Tao Mei "VehicleNet: Learning Robust Visual Representation
+for Vehicle Re-identification" arXiv (2020).
