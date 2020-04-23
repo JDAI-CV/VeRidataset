@@ -69,9 +69,10 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[28]|2019|71.88|92.86|96.97|
 |[29]|2019|66.34|89.78|95.99|
 |[30]|2019|66.35|90.17|94.34|
-|[31]|2020|83.41|96.78|-|
+|[31]\*|2020|83.41|96.78|-|
 |Ours|2019|77.2|96.1|97.9|
 
+\* This method uses large additional data from other datasets.
 # 6. Our Results on Six Datasets
 ![Image](./images/mAP_on6.jpg)
 ![Image](./images/Rank1_on6.jpg)
