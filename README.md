@@ -9,6 +9,8 @@ To facilitate the research of vehicle re-identification (Re-Id), we build a larg
 
 &ensp;&ensp;&ensp;&ensp;![Image](./images/VeRi_240.png)&ensp;&ensp;![Image](./images/VeRi2_240.png)
 
+**Recently, we release a large-scale Multi-grained Vehiclde Parsing dataset in the wild. Please refer to [MVP](https://lxc86739795.github.io/MVP.html) to download it!**
+
 # 2. Download
 To encourage related research, we will provide the dataset according to your request. 
 Please email your full name and affiliation to the contact person (*xinchenliu at bupt dot edu dot cn*). 
@@ -17,23 +19,15 @@ We will not give it to any third party or publish it publicly anywhere.
 
 # 3. Citation
 If you use the dataset, please kindly cite the following paper:
-* 	Xinchen Liu, Wu Liu, Huadong Ma, Huiyuan Fu: Large-scale vehicle re-identification in urban surveillance videos. ICME 2016: 1-6 (**Best Student Paper Award**, Citation=75)
-* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. ECCV (2) 2016: 869-884 (Citation=56)
-* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance. IEEE Trans. Multimedia 20(3): 645-658 (2018) (Citation=26)
+* 	Xinchen Liu, Wu Liu, Huadong Ma, Huiyuan Fu: Large-scale vehicle re-identification in urban surveillance videos. ICME 2016: 1-6 (**Best Student Paper Award**, Citation=178)
+* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance. ECCV (2) 2016: 869-884 (Citation=126)
+* Xinchen Liu, Wu Liu, Tao Mei, Huadong Ma: PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance. IEEE Trans. Multimedia 20(3): 645-658 (2018) (Citation=102)
 
-# 4. Example codes
-Here we give an example code for vehicle search evaluation.
+# 4. Code and Models
+Now, the FastReID toolbox has supported the VeRi dataset with powerful models.
+Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 
-In this code, we should first get the distance matrix of all query images and test images.
-As in the example code, we have three distance matrixes obtained with SIFT-BOW, CN-BOW, CNN features seperately.
-Then these matrixes are summed with different weights to obtain the final "dist" matrix.
 
-Then we read the ground truth and junk image index (the test images that have the same camera ID with the query image, they are not considered when computing the AP) from the gt_image.txt and jk_image.txt.
-
-After that, for each query, we rank the distance to each test image and compute the Average Presicion using the compute_AP function.
-At last, we can obtain the mAP, HIT@1, HIT@5, and the CMC curves.
-
-The model and distance files can be downloaded from [BaiduPan](https://pan.baidu.com/s/1gYBNQI0_MZLB0ANW8qnYGw) and [GoogleDrive](https://drive.google.com/open?id=0B0o1ZxGs_oVZWmtFdXpqTGl3WUU).
 
 # 5. State-of-the-art Results on the VeRi Dataset
 
@@ -71,7 +65,7 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 |[30]|2019|66.35|90.17|94.34|
 |[31]|2020|79.5|95.6|98.4|
 |[32]\*|2020|83.41|96.78|-|
-|Ours|2020|81.9|97.9|99.0|
+|[Ours](https://github.com/JDAI-CV/fast-reid)|2020|81.9|97.9|99.0|
 
 \* This method uses large additional data from other datasets.
 # 6. Our Results on Six Datasets
@@ -144,3 +138,5 @@ The model and distance files can be downloaded from [BaiduPan](https://pan.baidu
 
 [32] Zhedong Zheng, Tao Ruan, Yunchao Wei, Yi Yang, Tao Mei "VehicleNet: Learning Robust Visual Representation
 for Vehicle Re-identification" arXiv (2020).
+
+_Last modified in **July, 2020**_
