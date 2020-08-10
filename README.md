@@ -137,6 +137,6 @@ Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 [31] Dechao Meng, et al.: Parsing-based View-aware Embedding Network for Vehicle Re-Identification. IEEE CVPR (2020)
 
 [32] Zhedong Zheng, Tao Ruan, Yunchao Wei, Yi Yang, Tao Mei "VehicleNet: Learning Robust Visual Representation
-for Vehicle Re-identification" arXiv (2020).
+for Vehicle Re-identification" IEEE Trans. Multimedia (2020).
 
 _Last modified in **July, 2020**_
