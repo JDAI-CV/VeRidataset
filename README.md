@@ -64,11 +64,12 @@ Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 |[29]|2019|66.34|89.78|95.99|
 |[30]|2019|66.35|90.17|94.34|
 |[31]|2019|61.7|89.4|95.0|
-|[32]|2020|79.5|95.6|98.4|
-|[33]|2020|68.9|94.0|97.6|
-|[34]|2020|79.6|96.4|98.6|
-|[35]|2020|78.6|95.4|98.4|
-|[36]\*|2020|83.41|96.78|-|
+|[32]|2020|75.9|95.8|-|
+|[33]|2020|79.5|95.6|98.4|
+|[34]|2020|68.9|94.0|97.6|
+|[35]|2020|79.6|96.4|98.6|
+|[36]|2020|78.6|95.4|98.4|
+|[37]\*|2020|83.41|96.78|-|
 |[Ours](https://github.com/JDAI-CV/fast-reid)|2020|81.9|97.9|99.0|
 
 \* This method uses large additional data from other datasets.
@@ -141,14 +142,16 @@ Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 
 [31] Xiaobin Liu, Shiliang Zhang, Xiaoyu Wang, Richang Hong, Qi Tian: Group-Group Loss-Based Global-Regional Feature Learning for Vehicle Re-Identification. IEEE TIP (2020).
 
-[32] Dechao Meng, et al. Parsing-based View-aware Embedding Network for Vehicle Re-Identification. IEEE CVPR (2020).
+[32] Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen: Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification. AAAI 2020: 11165-11172
 
-[33] Tsai-Shien Chen, et al. Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network. ECCV (2020).
+[33] Dechao Meng, et al. Parsing-based View-aware Embedding Network for Vehicle Re-Identification. IEEE CVPR (2020).
 
-[34] Pirazh Khorramshahi, et al. The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. ECCV (2020).
+[34] Tsai-Shien Chen, et al. Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network. ECCV (2020).
 
-[35] Xinchen Liu, et al. Beyond the Parts: Learning Multi-view Cross-part Correlation for Vehicle Re-identification. ACM MM (2020).
+[35] Pirazh Khorramshahi, et al. The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. ECCV (2020).
 
-[36] Zhedong Zheng, et al. "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification" IEEE Trans. Multimedia (2020).
+[36] Xinchen Liu, et al. Beyond the Parts: Learning Multi-view Cross-part Correlation for Vehicle Re-identification. ACM MM (2020).
+
+[37] Zhedong Zheng, et al. "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification" IEEE Trans. Multimedia (2020).
 
 _Last modified in **Sep, 2020**_
