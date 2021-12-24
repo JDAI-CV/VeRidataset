@@ -71,8 +71,14 @@ Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 |[36]|2020|78.6|95.4|98.4|
 |[37]\*|2020|83.41|96.78|-|
 |[Ours](https://github.com/JDAI-CV/fast-reid)|2020|81.9|97.9|99.0|
+|[38]|2021|79.5|96.0|98.5|
+|[39]\**|2021|82.0|97.1|-|
+|[40]|2021|81.0|96.7|98.6|
 
-\* This method uses large additional data from other datasets.
+\* This method [37] uses large additional data from other datasets.
+
+\** This method [39] uses 384x128 input, camera labels, and viewpoint labels.
+
 
 # 6. Our Results on Six Datasets
 ![Image](./images/mAP_on6.jpg)
@@ -152,6 +158,13 @@ Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
 
 [36] Xinchen Liu, et al. Beyond the Parts: Learning Multi-view Cross-part Correlation for Vehicle Re-identification. ACM MM (2020).
 
-[37] Zhedong Zheng, et al. "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification" IEEE Trans. Multimedia (2020).
+[37] Zhedong Zheng, et al. VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification. IEEE Trans. Multimedia (2020).
 
-_Last modified in **Sep, 2020**_
+[38] Wei Sun, et al. TBE-Net: A Three-Branch Embedding Network With Part-Aware Ability and Feature Complementary Learning for Vehicle Re-Identification
+. IEEE Transactions on Intelligent Transportation Systems (2021).
+
+[39] Shuting He, et al. TransReID: Transformer-based Object Re-Identification. ICCV (2021).
+
+[40] Ming Li, et al. Self-supervised Geometric Features Discovery via Interpretable Attention for Vehicle Re-Identification and Beyond. ICCV (2021).
+
+_Last modified in **Dec, 2021**_
