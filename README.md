@@ -25,7 +25,7 @@ If you use the dataset, please kindly cite the following paper:
 
 # 4. Code and Models
 Now, the FastReID toolbox has supported the VeRi dataset with powerful models.
-Please refer to [FsatReID](https://github.com/JDAI-CV/fast-reid).
+Please refer to [FastReID](https://github.com/JDAI-CV/fast-reid).
 
 
 
